@@ -23,10 +23,10 @@ OS name: "mac os x", version: "10.9.1", arch: "x86_64", family: "mac"
 ##利用Maven启动一个新项目
 将Terminal `cd`到你需要创建项目的文件夹，Maven将会在该文件夹创建一个新的项目文件夹。
 
->> 如果没有使用过Terminal，这里有几条基本命令。
->> 
->> 1. `ls`命令，该命令用于列出当前文件夹下的所有文件。Windows等价于`dir`命令。
->> 2. `cd`命令，后面跟随路径名，即切换文件夹。如`cd Documents/JavaProject`，可以直接拷贝路径名到后面。
+> 如果没有使用过Terminal，这里有几条基本命令。
+> 
+> 1. `ls`命令，该命令用于列出当前文件夹下的所有文件。Windows等价于`dir`命令。
+> 2. `cd`命令，后面跟随路径名，即切换文件夹。如`cd Documents/JavaProject`，可以直接拷贝路径名到后面。
 
 此时，在Terminal下输入
 
