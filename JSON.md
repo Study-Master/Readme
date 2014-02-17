@@ -61,7 +61,7 @@ JSON中还支持表示数组，数组使用`[]`引起，下面就是一个利用
 
 ###JSON常用于数据交换
 
-绝大多数语言都支持JSON的decode和encode，因此JSON常用于互联网的数据交换。使用JSON数据交换的时候，一般的步骤是创建JSON对象，将JSON扁平化（即将JSON对象转换为String，一般称这种类型的String为JSONString），向服务器发送扁平化后的JSONString，服务器解析，计算好结果后向客户端返回responce，当然一般是一个JSONString。
+绝大多数语言都支持JSON的decode和encode，因此JSON常用于互联网的数据交换。使用JSON数据交换的时候，一般的步骤是创建JSON对象，将JSON扁平化（即将JSON对象转换为String，一般称这种类型的String为JSONString），向服务器发送扁平化后的JSONString，服务器解析，计算好结果后向客户端返回response，当然一般是一个JSONString。
 
 在C语言中，我们可以使用类似`printf`中的格式化String来创建一个JSONString，比如这就是个很好的例子，`"{\"name\": \"%s\"}"`。Java也可以使用这种C风格的格式化String来创建一个JSONString。需要注意，如果使用双引号，则要用反斜杠转义。由于JSON同时支持单引号，往往可以使用单引号代替双引号从而避免凡斜杠。
 
