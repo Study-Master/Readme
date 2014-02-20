@@ -80,4 +80,4 @@ protected String toJSON(String account, String passwd) {
 ```
 在这个例子中如果`account = "studymaster"`，`passwd = "1234567890"`，这个函数会创建一个类似这样的JSONString，`"{'client':'client','user':{'passwd':'1234567890','account':'studymaster'}}"`
 
-同样的JSONObject可以快速的解析一个JSONString。`JSONObject session = new JSONObject("{'client':'client','user':{'passwd':'1234567890','account':'studymaster'}}");`即可从JSONString中快速创建一个JSONObject。创建完毕后，我们便可以使用`String account = session.getString("account");`来获取JSONObject中的值。具体参考JSONObject的[官方文档](http://www.json.org/java/index.html)。关于其他语言的JSON操作也可以到JSON官网查看。
+同样的JSONObject可以快速的解析一个JSONString。`JSONObject session = new JSONObject("{'client':'client','user':{'passwd':'1234567890','account':'studymaster'}}");`即可从JSONString中快速创建一个JSONObject。创建完毕后，我们便可以使用`String account = session.getString("account");`来获取JSONObject中的值。具体参考JSONObject的[官方文档](http://www.json.org/java/index.html)。关于其他语言的JSON操作也可以到JSON官网查看。    
