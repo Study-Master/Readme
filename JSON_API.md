@@ -32,7 +32,7 @@ Client请求：
 ```JSON
 {
 	"event": "login",
-	"endpoint": "Server".
+	"endpoint": "Server",
 	"content": 	{
 					"status": "faild",
 					"code": "reason code",
@@ -52,6 +52,7 @@ Client请求：
 					"time": "system_time"
 				}
 }
+```
 
 服务器收到心跳包返回
 {
