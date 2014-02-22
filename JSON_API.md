@@ -34,9 +34,9 @@ Client请求：
 	"event": "login",
 	"endpoint": "Server",
 	"content": 	{
-					"status": "faild",
+					"status": "failed",
 					"code": "reason code",
-					"reason": "reasom"
+					"reason": "reason"
 				}
 }
 ```
