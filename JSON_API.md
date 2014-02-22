@@ -55,6 +55,7 @@ Client请求：
 ```
 
 服务器收到心跳包返回
+```JSON
 {
 	"event": "pong",
 	"endpoint": "Server",
@@ -63,6 +64,7 @@ Client请求：
 					"time": "server_time"
 				}
 }
+```
 
 ###Home界面
 客户端请求：
@@ -75,6 +77,7 @@ Client请求：
 					"token": "token"
 				}
 }
+```
 
 服务器返回：
 ```JSON
