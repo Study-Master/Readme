@@ -24,7 +24,6 @@ Client请求：
 	"endpoint": "Server",
 	"content": 	{
 					"status": "success",
-					"token": "token"
 				}
 }
 ```
@@ -48,7 +47,6 @@ Client请求：
 	"event": "ping",
 	"endpoint": "Java Client",
 	"content": 	{
-					"token": "token",
 					"time": "system_time"
 				}
 }
@@ -73,8 +71,7 @@ Client请求：
 	"event": "profile",
 	"endpoint": "Java Client",
 	"content": 	{
-					"account": "studymaster",
-					"token": "token"
+					"account": "studymaster"
 				}
 }
 ```
