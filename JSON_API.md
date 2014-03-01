@@ -85,9 +85,11 @@ Client请求：
 					"account": "studymaster",
 					"profile": 	{
 									"some_profile": "",
-									"courses" : {
-													"courseinfo", "info"
-												}
+									"courses" : [{
+													"code": "CZ2001",
+"name": "Java",
+"status": "book"
+												}]
 								}
 				}
 }
