@@ -92,23 +92,20 @@ Client请求：
 			{
 				"code": "CZ2001",
 				"name": "Java",
-				"status": "unbooked"
-				"times": ""
+				"status": "unbooked",
+				"start_time": NULL
 			},
 			{
 				"code": "CZ2002",
 				"name": "Java2",
-				"status": "booked"
-				"times": "2014/03/03 00:00:00"
+				"status": "booked",
+				"start_time": "2014/03/03 00:00:00"
 			}
 			]
 		}
 	}
 }
 ```
-###Course List界面
-
-To be edited.
 
 ###Booking界面
 
@@ -118,6 +115,7 @@ Client请求：
 {
 	"event": "booking",
 	"endpoint": "Java Client",
+	//"courseCode": "CZ2006",
 	"courseName": "*******"
 }
 ```
@@ -134,6 +132,7 @@ Example
 			"examTime": [{
 					"date": "dd/mm/yyyy",
 					"timeSlot": "**:** - **:**"
+					//"start_time": "2014/03/03 00:00:00"
 					}, 
 					{...}, 
 					{...}]//json array
