@@ -93,3 +93,38 @@ Client请求：
 								}
 				}
 }
+```
+###Course List界面
+
+To be edited.
+
+###Booking界面
+
+Client请求：
+
+```JSON
+{
+	"event": "booking",
+	"endpoint": "Java Client",
+	"courseName": "*******"
+}
+```
+
+服务器返回：
+
+```JSON
+Example
+{
+	"event": "booking",
+	"endpoint": "Server",
+	"content":  {
+			"courseName": "*****",
+			"examTime": [{
+					"date": "dd/mm/yyyy",
+					"timeSlot": "**:** - **:**"
+					}, 
+					{...}, 
+					{...}]//json array
+	}
+}
+
