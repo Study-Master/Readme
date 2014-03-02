@@ -70,9 +70,10 @@ Client请求：
 {
 	"event": "profile",
 	"endpoint": "Java Client",
-	"content": 	{
-					"account": "studymaster"
-				}
+	"content": 
+	{
+		"account": "studymaster"
+	}
 }
 ```
 
@@ -81,17 +82,28 @@ Client请求：
 {
 	"event": "profile",
 	"endpoint": "Server",
-	"content": 	{
-					"account": "studymaster",
-					"profile": 	{
-									"some_profile": "",
-									"courses" : [{
-													"code": "CZ2001",
-"name": "Java",
-"status": "book"
-												}]
-								}
-				}
+	"content": 
+	{
+		"account": "studymaster",
+		"profile": 	
+		{
+			"some_profile": "",
+			"courses" : [
+			{
+				"code": "CZ2001",
+				"name": "Java",
+				"status": "unbooked"
+				"times": ""
+			},
+			{
+				"code": "CZ2002",
+				"name": "Java2",
+				"status": "booked"
+				"times": "2014/03/03 00:00:00"
+			}
+			]
+		}
+	}
 }
 ```
 ###Course List界面
