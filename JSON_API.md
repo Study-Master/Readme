@@ -115,8 +115,8 @@ Client请求：
 {
 	"event": "booking",
 	"endpoint": "Java Client",
-	//"courseCode": "CZ2006",
-	"courseName": "*******"
+	"code": "CZ2001",
+	"name": "Java",
 }
 ```
 
