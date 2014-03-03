@@ -128,11 +128,11 @@ Example
 	"event": "booking",
 	"endpoint": "Server",
 	"content":  {
-			"courseName": "*****",
+			"code": "CZ2001",
+			"name": "Java",
 			"examTime": [{
-					"date": "dd/mm/yyyy",
-					"timeSlot": "**:** - **:**"
-					//"start_time": "2014/03/03 00:00:00"
+					"start_time": "2014/03/03 00:00:00"
+					"end_time": "2014/03/03 00:01:00"
 					}, 
 					{...}, 
 					{...}]//json array
