@@ -117,6 +117,7 @@ Client请求：
 	"endpoint": "Java Client",
 	"code": "CZ2001",
 	"name": "Java",
+	"studentID": "123456"
 }
 ```
 
@@ -127,6 +128,7 @@ Example
 {
 	"event": "booking",
 	"endpoint": "Server",
+	"studentID": "123456"
 	"content":  {
 			"code": "CZ2001",
 			"name": "Java",
