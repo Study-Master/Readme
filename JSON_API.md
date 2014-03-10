@@ -190,13 +190,6 @@ Example
 			}
 		},
 		{
-			"question_type": "short_answer_question",
-			"question": 
-			{
-				"What is the name of the lecturer?"
-			}
-		},
-		{
 			"question_type": "multiple_choice_question",
 			"question": 
 			{
