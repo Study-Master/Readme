@@ -183,25 +183,30 @@ Example
 		"exam_questions": 
 		[
 		{
-			"question_number": "1",
 			"question_type": "short_answer_question",
-			"question": "What is the name of this course?"
+			"question": 
+			{
+				"What is the name of this course?"
+			}
 		},
 		{
-			"question_number": "2",
 			"question_type": "short_answer_question",
-			"question": "What is the name of the lecturer?"
+			"question": 
+			{
+				"What is the name of the lecturer?"
+			}
 		},
 		{
-			"question_number": "3",
 			"question_type": "multiple_choice_question",
 			"question": 
 			{
 				"question_description": "How much do you like this course?",
-				"number_of_choices": "3",
-				"choice_A": "Not at all",
-				"choice_B": "So so",
-				"choice_C": "Very much"
+				"choices":
+				[
+					"choice_A": "Not at all",
+					"choice_B": "So so",
+					"choice_C": "Very much"
+				]
 			}
 			
 		}
