@@ -118,14 +118,14 @@ status:
 				"code": "CZ2006",
 				"name": "Java6",
 				"status": "closed",
-				"start_time": 2014/03/03 00:00:00
+				"start_time": "2014/03/03 00:00:00"
 			},
 
 			{
 				"code": "CZ2003",
 				"name": "Java3",
 				"status": "finished",
-				"start_time": 2014/03/03 00:00:00
+				"start_time": "2014/03/03 00:00:00"
 			}
 			]
 		}
