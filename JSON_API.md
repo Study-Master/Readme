@@ -156,10 +156,48 @@ Example
 					{...}]//json array
 	}
 }
+```
 
 ###考试界面
 客户端请求：
 ```JSON
+{
+	"event": "examQuestion",
+	"endpoint": "Java Client",
+	"content":
+	{
+		"code": "CZ0001",
+		"numberOfQuestions": "10"
+	}
+	
+}
+```
 
 服务器返回：
 ```JSON
+{
+	"event": "examQuestion",
+	"endpoint": "Server",
+	"content":
+	{
+		"course_code": "CZ0001",
+		"exam_questions": 
+		[
+		{
+			"question_number": "1",
+			"question_type": "short_answer_question",
+			"question": "What is the name of this course?"
+		},
+		{
+			"question_number": "2",
+			"question_type": "short_answer_question",
+			"question": "What is the name of the lecturer?"
+			...
+			..
+			.
+			//json string
+		}
+		]
+	}
+}
+```
