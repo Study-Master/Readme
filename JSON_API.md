@@ -180,7 +180,7 @@ Example
 	"content":
 	{
 		"course_code": "CZ0001",
-		"exam_questions": 
+		"question_setd": 
 		[
 		{
 			"question_type": "short_answer_question",
