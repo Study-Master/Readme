@@ -78,6 +78,17 @@ Client请求：
 ```
 
 服务器返回：
+
+status:
+
+1. unbooked - 距离考试时间还有超过3天＋未book
+
+2. booked - 已经booked＋考试开始15分钟之前
+
+3. closed － 未book＋距离考试时间不到3天／考试开始15分钟之后
+
+4. finished － startExam之后记录
+
 ```JSON
 {
 	"event": "profile",
@@ -87,7 +98,7 @@ Client请求：
 		"account": "studymaster",
 		"profile": 	
 		{
-			"some_profile": "",
+
 			"courses" : 
 			[
 			{
@@ -101,6 +112,20 @@ Client请求：
 				"name": "Java2",
 				"status": "booked",
 				"start_time": "2014/03/03 00:00:00"
+			},
+		
+			{
+				"code": "CZ2006",
+				"name": "Java6",
+				"status": "closed",
+				"start_time": 2014/03/03 00:00:00
+			},
+
+			{
+				"code": "CZ2003",
+				"name": "Java3",
+				"status": "finished",
+				"start_time": 2014/03/03 00:00:00
 			}
 			]
 		}
