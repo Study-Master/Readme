@@ -88,7 +88,8 @@ Client请求：
 		"profile": 	
 		{
 			"some_profile": "",
-			"courses" : [
+			"courses" : 
+			[
 			{
 				"code": "CZ2001",
 				"name": "Java",
@@ -180,25 +181,25 @@ Example
 	"content":
 	{
 		"course_code": "CZ0001",
-		"question_setd": 
+		"question_set": 
 		[
 		{
 			"question_type": "short_answer_question",
-			"question": 
+			"question_content": 
 			{
-				"What is the name of this course?"
+				"question_description": "What is the name of this course?"
 			}
 		},
 		{
 			"question_type": "multiple_choice_question",
-			"question": 
+			"question_content": 
 			{
 				"question_description": "How much do you like this course?",
 				"choices":
 				[
-					"choice_A": "Not at all",
-					"choice_B": "So so",
-					"choice_C": "Very much"
+					"Not at all",
+					"So so",
+					"Very much"
 				]
 			}
 			
