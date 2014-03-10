@@ -166,8 +166,7 @@ Example
 	"endpoint": "Java Client",
 	"content":
 	{
-		"code": "CZ0001",
-		"number_of_questions": "10"
+		"code": "CZ0001"
 	}
 	
 }
