@@ -78,6 +78,17 @@ Client请求：
 ```
 
 服务器返回：
+
+status:
+
+1. unbooked - 距离考试时间还有超过3天＋未book
+
+2. booked - 已经booked＋考试开始15分钟之前
+
+3. closed － 未book＋距离考试时间不到3天／考试开始15分钟之后
+
+4. finished － startExam之后记录
+
 ```JSON
 {
 	"event": "profile",
@@ -87,13 +98,27 @@ Client请求：
 		"account": "studymaster",
 		"profile": 	
 		{
-			"some_profile": "",
+			
 			"courses" : [
 			{
 				"code": "CZ2001",
 				"name": "Java",
 				"status": "unbooked",
 				"start_time": NULL
+			},
+			
+			{
+				"code": "CZ2006",
+				"name": "Java6",
+				"status": "closed",
+				"start_time": 2014/03/03 00:00:00
+			},
+
+			{
+				"code": "CZ2003",
+				"name": "Java3",
+				"status": "finished",
+				"start_time": 2014/03/03 00:00:00
 			},
 			{
 				"code": "CZ2002",
@@ -156,48 +181,10 @@ Example
 					{...}]//json array
 	}
 }
-```
 
 ###考试界面
 客户端请求：
 ```JSON
-{
-	"event": "examQuestion",
-	"endpoint": "Java Client",
-	"content":
-	{
-		"code": "CZ0001",
-		"numberOfQuestions": "10"
-	}
-	
-}
-```
 
 服务器返回：
 ```JSON
-{
-	"event": "examQuestion",
-	"endpoint": "Server",
-	"content":
-	{
-		"course_code": "CZ0001",
-		"exam_questions": 
-		[
-		{
-			"question_number": "1",
-			"question_type": "short_answer_question",
-			"question": "What is the name of this course?"
-		},
-		{
-			"question_number": "2",
-			"question_type": "short_answer_question",
-			"question": "What is the name of the lecturer?"
-			...
-			..
-			.
-			//json string
-		}
-		]
-	}
-}
-```
