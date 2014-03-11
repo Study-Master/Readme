@@ -133,21 +133,6 @@ status:
 }
 ```
 
-###ExamStart Event
-```JSON
-{
-	"event": "examstart",
-	"endpoint": "Server",
-	"content": 
-	{
-		"code": "CZ2002",
-		"name": "Java2",
-		"status": "booked",
-		"start_time": "2014/03/03 00:00:00"
-	}
-}
-```
-
 
 ###Booking界面
 
