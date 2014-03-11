@@ -105,7 +105,7 @@ status:
 				"code": "CZ2001",
 				"name": "Java",
 				"status": "unbooked",
-				"start_time": NULL
+				"start_time": "2014/04/01"
 			},
 			{
 				"code": "CZ2002",
