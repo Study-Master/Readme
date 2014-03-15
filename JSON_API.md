@@ -144,7 +144,6 @@ Client请求：
 	"endpoint": "Java Client",
 	"content": {
 		"code": "CZ2001",
-		"name": "Java",	
 		"account": "s"
 	}
 
@@ -160,11 +159,9 @@ Example
 	"endpoint": "Server",
 	"content":  {
 			"code": "CZ2001",
-			"name": "Java",
 			"account": "s"
 			"examTime": [{
 					"start_time": "2014/03/03 00:00:00"
-					"end_time": "2014/03/03 00:01:00"
 					}, 
 					{...}, 
 					{...}]//json array
