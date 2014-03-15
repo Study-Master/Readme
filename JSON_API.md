@@ -141,7 +141,7 @@ Client请求：
 ```JSON
 {
 	"event": "booking",
-	"endpoint": "Java Client",
+	"endpoint": "Examinee Client",
 	"content": {
 		"code": "CZ2001",
 		"account": "s"
@@ -166,6 +166,15 @@ Example
 					{...}, 
 					{...}]//json array
 	}
+}
+```
+Client返回：
+```JSON
+Example{
+	"event": "booked",
+	"endpoint": "Examinee Client",
+	"account": "s",
+	"examTime", "2014/03/03 00:00:00"
 }
 ```
 
