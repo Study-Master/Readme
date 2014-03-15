@@ -142,9 +142,12 @@ Client请求：
 {
 	"event": "booking",
 	"endpoint": "Java Client",
-	"code": "CZ2001",
-	"name": "Java",
-	"studentID": "123456"
+	"content": {
+		"code": "CZ2001",
+		"name": "Java",	
+		"account": "s"
+	}
+
 }
 ```
 
@@ -155,10 +158,10 @@ Example
 {
 	"event": "booking",
 	"endpoint": "Server",
-	"studentID": "123456"
 	"content":  {
 			"code": "CZ2001",
 			"name": "Java",
+			"account": "s"
 			"examTime": [{
 					"start_time": "2014/03/03 00:00:00"
 					"end_time": "2014/03/03 00:01:00"
