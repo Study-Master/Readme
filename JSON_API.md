@@ -172,8 +172,10 @@ Client返回：
 {
 	"event": "booked",
 	"endpoint": "Examinee Client",
-	"account": "s",
-	"examTime", "2014/03/03 00:00:00"
+	"content": {
+		"account": "s",
+		"examTime", "2014/03/03 00:00:00"
+	}
 }
 ```
 
