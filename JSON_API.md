@@ -153,7 +153,6 @@ Client请求：
 服务器返回：
 
 ```JSON
-Example
 {
 	"event": "booking",
 	"endpoint": "Server",
@@ -170,7 +169,7 @@ Example
 ```
 Client返回：
 ```JSON
-Example{
+{
 	"event": "booked",
 	"endpoint": "Examinee Client",
 	"account": "s",
