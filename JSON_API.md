@@ -204,6 +204,7 @@ Client返回：
 		"question_set": 
 		[
 		{
+			"question_number": "1",
 			"question_type": "short_answer_question",
 			"question_content": 
 			{
@@ -211,6 +212,7 @@ Client返回：
 			}
 		},
 		{
+			"question_number": "2",
 			"question_type": "multiple_choice_question",
 			"question_content": 
 			{
