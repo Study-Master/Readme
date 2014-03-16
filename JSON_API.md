@@ -226,7 +226,8 @@ Client返回：
 				},
 				"answer": ""
 			}
-			//coz i put them in an arrayList, leave a "answer" there will be easier for us to send the answers 			//back to server
+			//coz i put them in an arrayList, leave a "answer" there will be easier for us to send the answers
+			//back to server
 		}
 			...
 			..
