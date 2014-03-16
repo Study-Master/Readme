@@ -208,7 +208,7 @@ Client返回：
 			"question_type": "short_answer_question",
 			"question_content": 
 			{
-				"question_description": "What is the name of this course?"
+				"question_description": "What is the name of this course?",
 				"answer": ""
 			}
 		},
