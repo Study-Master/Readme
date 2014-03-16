@@ -217,14 +217,13 @@ Client返回：
 			"question_content": 
 			{
 				"question_description": "How much do you like this course?",
-				"choices":
-				[
-					"Not at all",
-					"So so",
-					"Very much"
-				]
+				"choices": {
+					"a": "very much",
+					"b": "so so lor",
+					"c": "not at all"
+				}
 			}
-			
+			"answer": "a"
 		}
 			...
 			..
