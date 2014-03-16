@@ -209,6 +209,7 @@ Client返回：
 			"question_content": 
 			{
 				"question_description": "What is the name of this course?"
+				"answer": ""
 			}
 		},
 		{
@@ -223,8 +224,9 @@ Client返回：
 					"b": "so so lor",
 					"c": "not at all"
 				},
-				"answer": "a"
+				"answer": ""
 			}
+			//coz i put them in an arrayList, leave a "answer" there will be easier for us to send the answers 			//back to server
 		}
 			...
 			..
