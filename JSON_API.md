@@ -174,7 +174,7 @@ Client返回：
 	"endpoint": "Examinee Client",
 	"content": {
 		"account": "s",
-		"examTime", "2014/03/03 00:00:00"
+		"start_time": "2014/03/03 00:00:00"
 	}
 }
 ```
