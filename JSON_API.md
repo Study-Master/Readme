@@ -205,6 +205,7 @@ Client返回：
 		[
 		{
 			"question_number": 1,
+			“question_pk” : 13,
 			"question_type": "short_answer_question",
 			"question_content": 
 			{
@@ -214,6 +215,7 @@ Client返回：
 		},
 		{
 			"question_number": 2,
+			"question_pk": 14,
 			"question_type": "multiple_choice_question",
 			"question_content": 
 			{
