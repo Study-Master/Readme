@@ -200,26 +200,26 @@ Client返回：
 	"endpoint": "Server",
 	"content":
 	{
-		"course_code": "CZ0001",
+		"code": "CZ0001",
 		"question_set": 
 		[
 		{
-			"question_number": 1,
-			“question_pk”: 13,
-			"question_type": "short_answer_question",
-			"question_content": 
+			"number": 1,
+			“pk”: 13,
+			"type": "short",
+			"content": 
 			{
-				"question_description": "What is the name of this course?",
+				"description": "What is the name of this course?",
 				"answer": ""
 			}
 		},
 		{
-			"question_number": 2,
-			"question_pk": 14,
-			"question_type": "multiple_choice_question",
-			"question_content": 
+			"number": 2,
+			"pk": 14,
+			"type": "multi",
+			"content": 
 			{
-				"question_description": "How much do you like this course?",
+				"description": "How much do you like this course?",
 				"choices": 
 				{
 					"a": "very much",
