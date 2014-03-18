@@ -239,3 +239,48 @@ Client返回：
 	}
 }
 ```
+
+考试结束后client side返回：
+```JSON
+{
+	"event": "exam_question_answer",
+	"endpoint": "Java Client",
+	"content":
+	{
+		"code": "CZ0001",
+		"question_set": 
+		[
+		{
+			"number": 1,
+			“pk”: 13,
+			"type": "short",
+			"content": 
+			{
+				"description": "What is the name of this course?",
+				"answer": "what the shit....can't finish lor..."
+			}
+		},
+		{
+			"number": 2,
+			"pk": 14,
+			"type": "multi",
+			"content": 
+			{
+				"description": "How much do you like this course?",
+				"choices": 
+				{
+					"a": "very much",
+					"b": "so so lor",
+					"c": "not at all"
+				},
+				"answer": "a"
+			}
+		}
+			...
+			..
+			.
+			//json string
+		]
+	}
+}
+```
