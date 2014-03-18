@@ -207,7 +207,7 @@ Client返回：
 			"number": 1,
 			"pk": 13,
 			"type": "short",
-			"content": 
+			"question_content": 
 			{
 				"description": "What is the name of this course?",
 				"answer": ""
@@ -217,7 +217,7 @@ Client返回：
 			"number": 2,
 			"pk": 14,
 			"type": "multi",
-			"content": 
+			"question_content": 
 			{
 				"description": "How much do you like this course?",
 				"choices": 
@@ -254,7 +254,7 @@ Client返回：
 			"number": 1,
 			"pk": 13,
 			"type": "short",
-			"content": 
+			"question_content": 
 			{
 				"description": "What is the name of this course?",
 				"answer": "what the shit....can't finish lor..."
@@ -264,7 +264,7 @@ Client返回：
 			"number": 2,
 			"pk": 14,
 			"type": "multi",
-			"content": 
+			"question_content": 
 			{
 				"description": "How much do you like this course?",
 				"choices": 
