@@ -187,7 +187,9 @@ Client返回：
 	"endpoint": "Java Client",
 	"content":
 	{
-		"code": "CZ0001"
+		"code": "CZ0001",
+		"start_time": "2014/03/03 00:00:00"
+		“account”: "s"
 	}
 	
 }
@@ -201,6 +203,7 @@ Client返回：
 	"content":
 	{
 		"code": "CZ0001",
+		"exam_pk": 3,
 		"question_set": 
 		[
 		{
@@ -248,6 +251,7 @@ Client返回：
 	"content":
 	{
 		"code": "CZ0001",
+		"exam_pk": 3,
 		"question_set": 
 		[
 		{
