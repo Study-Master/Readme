@@ -294,7 +294,7 @@ server成功收到答案后的返回信息：
 	{
 		"code": "CZ0001",
 		"submission_status": "successful"
-		//也可以返回failure
+		//返回其他任何信息都视为 submission failed
 	}
 	
 }
