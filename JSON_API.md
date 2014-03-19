@@ -284,3 +284,17 @@ Client返回：
 	}
 }
 ```
+
+server成功收到答案后的返回信息：
+```JSON
+{
+	"event": "submission_message",
+	"endpoint": "Server",
+	"content":
+	{
+		"code": "CZ0001"，
+		"submission_status": "successful"
+	}
+	
+}
+```
