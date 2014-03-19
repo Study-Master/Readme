@@ -303,3 +303,33 @@ server成功收到答案后的返回信息：
 	
 }
 ```
+
+取消考试booking
+```JSON
+{
+	"event": "cancel",
+	"endpoint": "Java Client",
+	"content":
+	{
+		"code": "CZ0001"
+		"account": "s"
+	}
+	
+}
+```
+
+系统回应取消booking
+```JSON
+{
+	"event": "cancel",
+	"endpoint": "Server",
+	"content":
+	{
+		"code": "CZ0001"
+		"account" "s"
+		"status": "successful"
+	}
+	
+}
+```
+
