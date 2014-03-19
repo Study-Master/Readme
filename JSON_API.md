@@ -292,7 +292,7 @@ server成功收到答案后的返回信息：
 	"endpoint": "Server",
 	"content":
 	{
-		"code": "CZ0001"，
+		"code": "CZ0001",
 		"submission_status": "successful"
 		//也可以返回failure
 	}
