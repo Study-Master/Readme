@@ -359,7 +359,7 @@ server成功收到答案后的返回信息：
 		"acoount": "s",
 		"exam_pk": 3,
 		"system_time": "2014-03-20 14:33:07", 
-				//SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd,HH:mm:ss");
+				//SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		“msg”: "Teacher, I have a question."
 	}
 	
