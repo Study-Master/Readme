@@ -324,9 +324,9 @@ server成功收到答案后的返回信息：
 	"endpoint": "Server",
 	"content":
 	{
-		"code": "CZ0001"
-		"account" "s"
-		"status": "successful"
+		"code": "CZ0001",
+		"account" "s",
+		"status": "successful",
 		"start_time": "2014/03/20 00:00:00"
 	}
 	
@@ -339,10 +339,10 @@ server成功收到答案后的返回信息：
 	"endpoint": "Server",
 	"content":
 	{
-		"code": "CZ0001"
-		"account" "s"
-		"status": "fail"
-		"error": "XXXXX"
+		"code": "CZ0001",
+		"account" "s",
+		"status": "fail",
+		"error": "XXXXX",
 	}
 	
 }
