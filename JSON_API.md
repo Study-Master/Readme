@@ -13,8 +13,7 @@ Client请求：
 	"content": 	{
 					"account": "studymaster",
 					"password": "password in md5Hex",
-					"time": "system_time",
-					"type": "Examinee" // or "Invigilator"
+					"time": "system_time"
 				}
 }
 ```
