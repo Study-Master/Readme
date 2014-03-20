@@ -188,7 +188,6 @@ Client返回：
 	"content":
 	{
 		"code": "CZ0001",
-		"start_time": "2014/03/03 00:00:00",
 		“account”: "s"
 	}
 	
