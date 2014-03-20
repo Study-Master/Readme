@@ -9,7 +9,7 @@ Client请求：
 ```JSON
 {
 	"event": "login",
-	"endpoint": "Java Client",
+	"endpoint": "Examinee", // Or Invigilator
 	"content": 	{
 					"account": "studymaster",
 					"password": "password in md5Hex",
