@@ -184,8 +184,6 @@ Client返回：
 		{"event": "booked",
                  "endpoint": "Server",
                  "content": {
-                 	"code": "CZ2006",
-                 	"start_time": "2014/03/03 00:00:00"
                      	"status": "success"
                  }
              }  
