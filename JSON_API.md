@@ -178,7 +178,17 @@ Client返回：
 	}
 }
 ```
-
+服务器返回：
+```JSON
+		{"event": "booked",
+                 "endpoint": "Server",
+                 "content": {
+                 	"code": "CZ2006",
+                 	"start_time": "2014/03/03 00:00:00"
+                     	"status": "success"
+                 }
+             }  
+```
 ###考试界面
 客户端请求：
 ```JSON
