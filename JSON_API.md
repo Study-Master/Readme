@@ -141,7 +141,7 @@ Client请求：
 ```JSON
 {
 	"event": "booking",
-	"endpoint": "Examinee Client",
+	"endpoint": "Examinee",
 	"content": {
 		"code": "CZ2001",
 		"account": "s"
@@ -171,7 +171,7 @@ Client返回：
 ```JSON
 {
 	"event": "booked",
-	"endpoint": "Examinee Client",
+	"endpoint": "Examinee",
 	"content": {
 		"account": "s",
 		"code": "CZ2006",
@@ -193,7 +193,7 @@ Client返回：
 ```JSON
 {
 	"event": "exam_question",
-	"endpoint": "Java Client",
+	"endpoint": "Examinee",
 	"content":
 	{
 		"code": "CZ0001",
@@ -255,7 +255,7 @@ Client返回：
 ```JSON
 {
 	"event": "exam_question_answer",
-	"endpoint": "Java Client",
+	"endpoint": "Examinee",
 	"content":
 	{
 		"code": "CZ0001",
@@ -316,7 +316,7 @@ server成功收到答案后的返回信息：
 ```JSON
 {
 	"event": "cancel",
-	"endpoint": "Java Client",
+	"endpoint": "Examinee",
 	"content":
 	{
 		"code": "CZ0001"
@@ -362,7 +362,7 @@ server成功收到答案后的返回信息：
 ```JSON
 {
 	"event": "exam_chat",
-	"endpoint": "Java Examinee Client",
+	"endpoint": "Examinee",
 	"content":
 	{
 		"acoount": "s",
