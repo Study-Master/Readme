@@ -244,7 +244,6 @@ Client返回：
 	{
 		"code": "CZ0001",
 		"exam_pk": 3,
-		"end_time": "2014/03/03 00:00:00",
 		"question_set": 
 		[
 		{
@@ -293,7 +292,6 @@ Client返回：
 	{
 		"code": "CZ0001",
 		"exam_pk": 3,
-		"end_time": "2014/03/03 00:00:00",
 		"question_set": 
 		[
 		{
