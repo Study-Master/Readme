@@ -133,6 +133,42 @@ status:
 }
 ```
 
+距考试开始3天前，服务器广播：
+```JSON
+{
+	"event": "cancel_disabled",
+	"endpoint": "Server",
+	"content": 
+	{
+		"code": "CZ2006"
+	}
+}
+```
+
+当考试开始15分钟之前，服务器广播：
+```JSON
+{
+	"event": "exam_enabled",
+	"endpoint": "Server",
+	"content": 
+	{
+		"code": "CZ2006"
+	}
+}
+```
+
+当考试开始15分钟之后，服务器广播：
+```JSON
+{
+	"event": "exam_disabled",
+	"endpoint": "Server",
+	"content": 
+	{
+		"code": "CZ2006"
+	}
+}
+```
+
 
 ###Booking界面
 
