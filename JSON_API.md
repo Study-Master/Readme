@@ -11,7 +11,6 @@ Client请求：
 	"event": "login",
 	"endpoint": "Java Client",
 	"content": 	{
-					"account": "studymaster",
 					"password": "password in md5Hex",
 					"time": "system_time"
 				}
@@ -95,7 +94,6 @@ status:
 	"endpoint": "Server",
 	"content": 
 	{
-		"account": "studymaster",
 		"profile": 	
 		{
 
@@ -194,7 +192,6 @@ Client请求：
 	"endpoint": "Server",
 	"content":  {
 			"code": "CZ2001",
-			"account": "s"
 			"examTime": [{
 					"start_time": "2014/03/03 00:00:00"
 					}, 
@@ -209,7 +206,6 @@ Client返回：
 	"event": "booked",
 	"endpoint": "Examinee",
 	"content": {
-		"account": "s",
 		"code": "CZ2006",
 		"start_time": "2014/03/03 00:00:00"
 	}
@@ -370,7 +366,6 @@ server成功收到答案后的返回信息：
 	"content":
 	{
 		"code": "CZ0001",
-		"account" "s",
 		"status": "successful",
 		"start_time": "2014/03/20 00:00:00"
 	}
@@ -385,7 +380,6 @@ server成功收到答案后的返回信息：
 	"content":
 	{
 		"code": "CZ0001",
-		"account" "s",
 		"status": "fail",
 		"error": "XXXXX",
 	}
@@ -401,7 +395,6 @@ server成功收到答案后的返回信息：
 	"endpoint": "Examinee",
 	"content":
 	{
-		"acoount": "s",
 		"exam_pk": 3,
 		"system_time": "2014-03-20 14:33:07", 
 				//SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
