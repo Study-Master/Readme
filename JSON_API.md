@@ -474,8 +474,11 @@ status:
 	"event": "profile_invigilator",
 	"endpoint": "Server",
 	"content": 
-	{
-		"courses" : 
+	{	
+		"profile": 	
+		{
+	
+			"courses" : 
 			[
 			{
 				"code": "CZ2001",
@@ -504,6 +507,7 @@ status:
 				"start_time": "2014/03/03 00:00:00"
 			}
 			]
+		}
 		
 		
 	}
