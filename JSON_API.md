@@ -403,3 +403,121 @@ server成功收到答案后的返回信息：
 	
 }
 ```
+
+
+
+
+###Invigilation Part
+
+###登录
+Client请求：
+```JSON
+{
+	"event": "login",
+	"endpoint": "Invilator",
+	"content": 	{
+				"password": "password in md5Hex",
+				"time": "system_time"
+			}
+}
+```
+如果登录成功，服务器返回
+```JSON
+{
+	"event": "login",
+	"endpoint": "Server",
+	"content": 	{
+				"status": "success",
+			}
+}
+```
+如果登录失败，服务器返回
+```JSON
+{
+	"event": "login",
+	"endpoint": "Server",
+	"content": 	{
+				"status": "failed",
+				"code": "reason code",
+				"reason": "reason"
+			}
+}
+```
+
+
+###CourseView
+```JSON
+{
+	"event": "profile_invigilator",
+	"endpoint": "Invigilator",
+	"content": 
+	{
+		"account": "invigilator1"
+	}
+}
+```
+
+服务器返回：
+
+status:
+	3 states "waiting", "invigilate" and "finished". 
+	Server shall broadcast the event "enable_invigilation" 15 mins from the invigilation.
+
+1. waiting - the initial state of all the invigilation.
+
+2. invigilate - the state 15 mins from the invigition until the end of the invigilation. 
+
+3. finished － after invigilation
+
+```JSON
+{
+	"event": "profile_invigilator",
+	"endpoint": "Server",
+	"content": 
+	{
+		"courses" : 
+			[
+			{
+				"code": "CZ2001",
+				"name": "Java",
+				"status": "unbooked",
+				"start_time": "2014/04/01"
+			},
+			{
+				"code": "CZ2002",
+				"name": "Java2",
+				"status": "booked",
+				"start_time": "2014/03/03 00:00:00"
+			},
+		
+			{
+				"code": "CZ2006",
+				"name": "Java6",
+				"status": "closed",
+				"start_time": "2014/03/03 00:00:00"
+			},
+
+			{
+				"code": "CZ2003",
+				"name": "Java3",
+				"status": "finished",
+				"start_time": "2014/03/03 00:00:00"
+			}
+			]
+		
+		
+	}
+}
+
+```
+当考试开始15分钟之前，服务器广播：
+```JSON
+{
+	"event": "enable_invigilation",
+	"endpoint": "Server",
+	"content": 
+	{
+		"code": "CZ2006"
+	}
+}
+```
