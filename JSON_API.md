@@ -525,3 +525,15 @@ status:
 	}
 }
 ```
+After Clicking invigilate button.
+
+
+```JSON
+{
+	"event": "invigilate",
+	"endpoint": "Invigilator",
+	"content":
+	{
+	}
+}
+```
