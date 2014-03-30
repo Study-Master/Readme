@@ -534,7 +534,7 @@ After Clicking invigilate button.
 	"endpoint": "start_invigilation",
 	"content":
 	{
-		"course": "cz****"
+		"code": "cz****"
 	}
 }
 ```
