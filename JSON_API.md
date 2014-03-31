@@ -538,3 +538,38 @@ After Clicking invigilate button.
 	}
 }
 ```
+
+Logout
+请求
+```JSON
+{
+	"event": "logout",
+	"endpoint": "Java Client",或者Invigilator
+	"content": 
+	{
+		"account": "studymaster"
+	}
+}
+```
+如果logout成功，服务器返回
+```JSON
+{
+	"event": "logout",
+	"endpoint": "Server",
+	"content": 	{
+					"status": "success",
+				}
+}
+```
+如果logout失败，服务器返回
+```JSON
+{
+	"event": "logout",
+	"endpoint": "Server",
+	"content": 	{
+					"status": "failed",
+					"code": "reason code",
+					"reason": "reason"
+				}
+}
+```
