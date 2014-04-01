@@ -12,7 +12,7 @@ Client请求：
 	"endpoint": "Java Client",
 	"content": 	{
 					"password": "password in md5Hex",
-					"time": "system_time"
+					"account": "s"
 				}
 }
 ```
