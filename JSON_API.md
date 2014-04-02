@@ -544,11 +544,8 @@ Logout
 ```JSON
 {
 	"event": "logout",
-	"endpoint": "Java Client",或者Invigilator
-	"content": 
-	{
-		"account": "studymaster"
-	}
+	"endpoint": "Java Client",或者Invigilator,
+	"content": null
 }
 ```
 如果logout成功，服务器返回
