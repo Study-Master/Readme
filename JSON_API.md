@@ -569,7 +569,6 @@ After Clicking invigilate button.
 }
 ```
 ###invigilator authenticate成功后发送的信息
-Client请求：
 ```JSON
 {
 	"event": "auth_successful",
