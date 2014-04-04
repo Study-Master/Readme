@@ -488,7 +488,7 @@ status:
 				"start_time": "2014/04/01"
 			},
 			{
-				"exam_pk": "2"
+				"exam_pk": "2",
 				"code": "CZ2002",
 				"name": "Java2",
 				"status": "invigilate",
@@ -548,7 +548,7 @@ Logout
 ```JSON
 {
 	"event": "logout",
-	"endpoint": "Java Client",或者Invigilator,
+	"endpoint": "Invigilator",
 	"content": null
 }
 ```
