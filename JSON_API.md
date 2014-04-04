@@ -220,6 +220,16 @@ Client返回：
                  }
              }  
 ```
+###建立Video连接
+```JSON
+{
+	"event": "examinee_come_in",
+	"endpoint": "Server",
+	"content": {
+		"name": "examinee account name"
+	}
+}
+```
 ###考试界面
 客户端请求：
 ```JSON
