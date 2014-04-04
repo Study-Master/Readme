@@ -478,7 +478,7 @@ status:
 		"profile": 	
 		{
 	
-			"Exams" : 
+			"exams" : 
 			[
 			{
 				"exam_pk": "1",
