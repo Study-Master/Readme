@@ -568,6 +568,19 @@ After Clicking invigilate button.
 	}
 }
 ```
+###invigilator authenticate成功后发送的信息
+Client请求：
+```JSON
+{
+	"event": "auth_successful",
+	"endpoint": "Invigilator",
+	"content": 	
+	{
+	//content里不需要任何内容
+	}
+}
+```
+
 
 Logout
 请求
