@@ -478,29 +478,33 @@ status:
 		"profile": 	
 		{
 	
-			"courses" : 
+			"Exams" : 
 			[
 			{
+				"exam_pk": "1",
 				"code": "CZ2001",
 				"name": "Java",
-				"status": "unbooked",
+				"status": "waiting",
 				"start_time": "2014/04/01"
 			},
 			{
+				"exam_pk": "2"
 				"code": "CZ2002",
 				"name": "Java2",
-				"status": "booked",
+				"status": "invigilate",
 				"start_time": "2014/03/03 00:00:00"
 			},
 		
-			{
+			{	
+				"exam_pk": "3",
 				"code": "CZ2006",
 				"name": "Java6",
-				"status": "closed",
+				"status": "finished",
 				"start_time": "2014/03/03 00:00:00"
 			},
 
-			{
+			{	
+				"exam_pk": "4",
 				"code": "CZ2003",
 				"name": "Java3",
 				"status": "finished",
@@ -520,8 +524,8 @@ status:
 	"event": "enable_invigilation",
 	"endpoint": "Server",
 	"content": 
-	{
-		"code": "CZ2006"
+	{	
+		"exam_pk" : "1"
 	}
 }
 ```
@@ -534,7 +538,7 @@ After Clicking invigilate button.
 	"endpoint": "start_invigilation",
 	"content":
 	{
-		"code": "cz****"
+		"exam_pk": "1"
 	}
 }
 ```
