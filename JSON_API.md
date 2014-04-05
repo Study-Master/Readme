@@ -558,7 +558,19 @@ After Clicking invigilate button.
 ```JSON
 {
 	"event": "invigilate",
-	"endpoint": "start_invigilation",
+	"endpoint": "Invigilator",
+	"content":
+	{
+		"exam_pk": "1"
+	}
+}
+```
+
+服务器返回：
+```JSON
+{
+	"event": "start_invigilation",
+	"endpoint": "Server",
 	"content":
 	{
 		"exam_pk": "1"
