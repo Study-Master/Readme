@@ -418,6 +418,7 @@ invigilator发送：
 	"content":
 	{
 		"exam_pk": 3,
+		"name": "s",
 		"system_time": "2014-03-20 14:33:07", 
 				//SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		“msg”: "I'm teacher, go ask your papa lah dun ask me!"
@@ -561,7 +562,8 @@ After Clicking invigilate button.
 	"endpoint": "Invigilator",
 	"content":
 	{
-		"exam_pk": "1"
+		"code": "CZ2006",
+		"start_time": 
 	}
 }
 ```
