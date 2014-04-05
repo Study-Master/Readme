@@ -572,7 +572,7 @@ After Clicking invigilate button.
 	"endpoint": "Invigilator",
 	"content": 	
 	{
-	//content里不需要任何内容
+		"name": "examinee name"
 	}
 }
 ```
