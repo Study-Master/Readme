@@ -342,13 +342,10 @@ Client返回：
 server成功收到答案后的返回信息：
 ```JSON
 {
-	"event": "submission_message",
+	"event": "submission_successful",
 	"endpoint": "Server",
 	"content":
 	{
-		"code": "CZ0001",
-		"submission_status": "successful"
-		//返回其他任何信息都视为 submission failed
 	}
 	
 }
