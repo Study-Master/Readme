@@ -226,7 +226,9 @@ Client返回：
 	"event": "examinee_come_in",
 	"endpoint": "Server",
 	"content": {
-		"name": "examinee account name"
+		"name": "examinee account name",
+		"type": "video",
+		"exam_pk": 1
 	}
 }
 ```
