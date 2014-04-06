@@ -295,6 +295,33 @@ Client返回：
 }
 ```
 
+终止examinee
+invilator发送
+```JSON
+{
+	"event": "terminate",
+	"endpoint": "Invilator",
+	"content": {
+		"name": "examinee name",
+		"exam_pk": exam_pk,
+		"reason": "reason"
+	}
+}
+```
+
+server处理完，发送给examinee
+```JSON
+{
+	"event": "terminate",
+	"endpoint": "Server",
+	"content": {
+		"code": "course code",
+		"exam_pk": exam_pk,
+		"reason": "reason"
+	}
+}
+```
+
 考试结束后client side返回：
 ```JSON
 {
